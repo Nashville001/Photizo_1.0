@@ -133,11 +133,7 @@ body {
   .logo img{
     width: 50px;
   }
-   .burger{
-    display: block;
-  }
-}
-@media (width >= 40em ) {
+  
   .navbar {
     position: fixed;
     top: 0;
@@ -152,8 +148,8 @@ body {
     padding: 0;
     inset: 0;
     padding: 1.5rem;
-    translate: 100vw 0; 
-    /* transition: translate 0.5s ease-in-out;
+    /* translate: 100vw 0; */
+    /* transition: translate 0.5s ease-in-out; */
     /* column-gap: 15rem; */
     
   }
@@ -165,8 +161,10 @@ body {
     align-items: center;
   }
 
-  .nav-close
- 
+  .nav-close,
+  .burger{
+    display: block;
+  }
   .nav-close img{
     width: 28px;
     height: 28px;
