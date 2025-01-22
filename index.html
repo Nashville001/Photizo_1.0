@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Photizo || The Light That Shines</title>
-    <link rel="icon" type="image/png" href="./Asset/images/Screenshot_2024-12-02_193250_-_Copy-removebg-preview.png">
+    <link
+      rel="icon"
+      type="image/png"
+      href="./Asset/images/Screenshot_2024-12-02_193250_-_Copy-removebg-preview.png"
+    />
   </head>
   <body>
     <header>
@@ -18,25 +22,54 @@
             />
           </a>
         </div>
-        <div class="burger hidden">
-          <svg width="30px" height="30px" viewBox="0 0 12 12" enable-background="new 0 0 12 12" id="Слой_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <rect fill="#fff" height="1" width="11" x="0.5" y="5.5"></rect> <rect fill="#fff" height="1" width="11" x="0.5" y="2.5"></rect> <rect fill="#fff" height="1" width="11" x="0.5" y="8.5"></rect> </g> </g></svg>
+        <div class="burger" id="btnOpen">
+          <svg
+            width="30px"
+            height="30px"
+            viewBox="0 0 12 12"
+            enable-background="new 0 0 12 12"
+            id="Слой_1"
+            version="1.1"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            fill="#fff"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <rect fill="#fff" height="1" width="11" x="0.5" y="5.5"></rect>
+                <rect fill="#fff" height="1" width="11" x="0.5" y="2.5"></rect>
+                <rect fill="#fff" height="1" width="11" x="0.5" y="8.5"></rect>
+              </g>
+            </g>
+          </svg>
         </div>
-        
-        <div class="navigation">
-         
-          <ul>
-            <li class="nav-link"><a href="#About">About</a></li>
-            <li class="nav-link"><a href="#Speakers">Speakers</a></li>
-            <li class="nav-link"><a href="#schedule">Schedules</a></li>
-            <li class="nav-link"><a href="#team">PHOTIZO TEAM</a></li>
-          </ul>
+        <div class="menu-container" id="menuContainer" role="dialog" aria-modal="true" arai-label="Navigation menu">
+          <button type="button" class="close-menu" id="btnClose" aria-label="Close menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff">
+                <path d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+                </button>
+          <div class="navigation">
+            <ul>
+              <li class="nav-link"><a href="#About">About</a></li>
+              <li class="nav-link"><a href="#Speakers">Speakers</a></li>
+              <li class="nav-link"><a href="#schedule">Schedules</a></li>
+              <li class="nav-link"><a href="#team">PHOTIZO TEAM</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="btn-register">
+        <!-- <div class="btn-register">
           <button type="button" class="btn-1">
             <h3>Register Now</h3>
           </button>
-        </div>
-
+        </div> -->
       </nav>
     </header>
 
@@ -55,7 +88,6 @@
               </p>
             </div>
           </div>
-
         </section>
         <section class="about">
           <div class="about-image">
@@ -77,24 +109,24 @@
             <div class="know-details">
               <p>
                 Welcome to PHOTIZO— A platform where visionary leaders, industry
-                experts, and forward-thinkers come together to illuminate the path
-                to innovation. Join us for inspiring keynotes, transformative
-                sessions, and unmatched networking opportunities. Together, let's
-                shine a light on the future.
+                experts, and forward-thinkers come together to illuminate the
+                path to innovation. Join us for inspiring keynotes,
+                transformative sessions, and unmatched networking opportunities.
+                Together, let's shine a light on the future.
               </p>
               <p>
                 Welcome to PHOTIZO— A platform where visionary leaders, industry
-                experts, and forward-thinkers come together to illuminate the path
-                to innovation. Join us for inspiring keynotes, transformative
-                sessions, and unmatched networking opportunities. Together, let's
-                shine a light on the future.
+                experts, and forward-thinkers come together to illuminate the
+                path to innovation. Join us for inspiring keynotes,
+                transformative sessions, and unmatched networking opportunities.
+                Together, let's shine a light on the future.
               </p>
               <p>
                 Welcome to PHOTIZO— A platform where visionary leaders, industry
-                experts, and forward-thinkers come together to illuminate the path
-                to innovation. Join us for inspiring keynotes, transformative
-                sessions, and unmatched networking opportunities. Together, let's
-                shine a light on the future.
+                experts, and forward-thinkers come together to illuminate the
+                path to innovation. Join us for inspiring keynotes,
+                transformative sessions, and unmatched networking opportunities.
+                Together, let's shine a light on the future.
               </p>
             </div>
           </div>
@@ -375,7 +407,6 @@
           <div class="team-container">&#24;</div>
         </section>
 
-        
         <section class="contact">
           <h1>Contact Us</h1>
           <div class="contact-container">
@@ -392,15 +423,19 @@
                       alt=""
                   /></span>
                   <p>
-                    Adekehin Close, Behind Alata Milk & Honey, Under G, Ogbomoso,
-                    Oyo State.
+                    Adekehin Close, Behind Alata Milk & Honey, Under G,
+                    Ogbomoso, Oyo State.
                   </p>
                 </li>
                 <li id="web">
                   <span
                     ><img src="./Asset/icons/globe-1-svgrepo-com.svg" alt=""
                   /></span>
-                  <a href="https://www.hgbcinfluencers.org" target="_blank"n;  -0
+                  <a
+                    href="https://www.hgbcinfluencers.org"
+                    target="_blank"
+                    n;
+                    -0
                     >www.hgbcinfluencers.org</a
                   >
                 </li>
@@ -425,69 +460,106 @@
       </div>
       <div id="formModal" class="modal">
         <div class="modal-content">
-            <span id="closeModal" class="close">&times;</span>
-            <h1>Photizo Conference '25</h1>
-            <p>Embracing The GOD Given Light</p>
+          <span id="closeModal" class="close">&times;</span>
+          <h1>Photizo Conference '25</h1>
+          <p>Embracing The GOD Given Light</p>
 
-            <form>
-                <label>Full Name *</label>
-                <div class="name">
-                    <input type="text" placeholder="First Name" required>
-                    <input type="text" placeholder="Last Name" required>
-                </div>
-                
-                <label>Age Range</label>
-                <div class="age-range">
-                    <div><input type="checkbox" id="age1"><label for="age1">15 - 30</label></div>
-                    <div><input type="checkbox" id="age2"><label for="age2">31 - 45</label></div>
-                    <div><input type="checkbox" id="age3"><label for="age3">46 - 60</label></div>
-                </div>
+          <form>
+            <label>Full Name *</label>
+            <div class="name">
+              <input type="text" placeholder="First Name" required />
+              <input type="text" placeholder="Last Name" required />
+            </div>
 
-                <label>E-mail *</label>
-                <input type="email" placeholder="example@example.com" required>
+            <label>Age Range</label>
+            <div class="age-range">
+              <div>
+                <input type="checkbox" id="age1" /><label for="age1"
+                  >15 - 30</label
+                >
+              </div>
+              <div>
+                <input type="checkbox" id="age2" /><label for="age2"
+                  >31 - 45</label
+                >
+              </div>
+              <div>
+                <input type="checkbox" id="age3" /><label for="age3"
+                  >46 - 60</label
+                >
+              </div>
+            </div>
 
-                <label>Phone Number *</label>
-                <input type="tel" placeholder="(000) 000-00000" required>
+            <label>E-mail *</label>
+            <input type="email" placeholder="example@example.com" required />
 
-                <label>First time to attend this conference? *</label>
-                <div class="attend">
-                    <div><input type="radio" id="firstTimeYes" name="firstTime"><label for="firstTimeYes">Yes</label></div>
-                    <div><input type="radio" id="firstTimeNo" name="firstTime"><label for="firstTimeNo">No</label></div>
-                </div>
+            <label>Phone Number *</label>
+            <input type="tel" placeholder="(000) 000-00000" required />
 
-                <label>What are your expectations for Photizo?</label>
-                <textarea placeholder="Share your thoughts"></textarea>
+            <label>First time to attend this conference? *</label>
+            <div class="attend">
+              <div>
+                <input type="radio" id="firstTimeYes" name="firstTime" /><label
+                  for="firstTimeYes"
+                  >Yes</label
+                >
+              </div>
+              <div>
+                <input type="radio" id="firstTimeNo" name="firstTime" /><label
+                  for="firstTimeNo"
+                  >No</label
+                >
+              </div>
+            </div>
 
-                <label>I will attend:</label>
-                <div class="attend">
-                    <div><input type="checkbox" id="event1"><label for="event1">Event 1 - February 15</label></div>
-                    <div><input type="checkbox" id="event2"><label for="event2">Event 2 - February 16</label></div>
-                    <div><input type="checkbox" id="event3"><label for="event3">Event 3 - February 17</label></div>
-                    <div><input type="checkbox" id="allEvents"><label for="allEvents">All Events</label></div>
-                </div>
+            <label>What are your expectations for Photizo?</label>
+            <textarea placeholder="Share your thoughts"></textarea>
 
-                <label>Mode of Attendance *</label>
-                <select title="Please Select" required>
-                    <option value="" disabled selected>Please Select</option>
-                    <option value="online">Online</option>
-                    <option value="in-person">In-Person</option>
-                </select>
+            <label>I will attend:</label>
+            <div class="attend">
+              <div>
+                <input type="checkbox" id="event1" /><label for="event1"
+                  >Event 1 - February 15</label
+                >
+              </div>
+              <div>
+                <input type="checkbox" id="event2" /><label for="event2"
+                  >Event 2 - February 16</label
+                >
+              </div>
+              <div>
+                <input type="checkbox" id="event3" /><label for="event3"
+                  >Event 3 - February 17</label
+                >
+              </div>
+              <div>
+                <input type="checkbox" id="allEvents" /><label for="allEvents"
+                  >All Events</label
+                >
+              </div>
+            </div>
 
-                <label>Upload Payment Receipt</label>
-                <div>
-                  <input title="file" type="file">
-                  <div class="inner-input">
-                      <img src="" alt="">
-                      <h2>Browse Files</h2>
-                      <p>Drag and Drop files here</p>
-                  </div>
-                </div>
-                
+            <label>Mode of Attendance *</label>
+            <select title="Please Select" required>
+              <option value="" disabled selected>Please Select</option>
+              <option value="online">Online</option>
+              <option value="in-person">In-Person</option>
+            </select>
 
-                <button type="submit">Submit Form</button>
-            </form>
+            <label>Upload Payment Receipt</label>
+            <div>
+              <input title="file" type="file" />
+              <div class="inner-input">
+                <img src="" alt="" />
+                <h2>Browse Files</h2>
+                <p>Drag and Drop files here</p>
+              </div>
+            </div>
+
+            <button type="submit">Submit Form</button>
+          </form>
         </div>
-    </div>
+      </div>
       <footer>
         <div class="inner-footer">
           <div class="media">
@@ -511,10 +583,7 @@
 
     <section>
       <button id="backToTop" type="button">
-        <img
-          src="./Asset/icons/arrow-top-svgrepo-com.svg"
-          alt="back to top"
-        />
+        <img src="./Asset/icons/arrow-top-svgrepo-com.svg" alt="back to top" />
       </button>
     </section>
     <script type="module" src="js/script.js"></script>

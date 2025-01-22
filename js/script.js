@@ -347,3 +347,4 @@ register.addEventListener('click', openModal)
 
 
 closeButton.addEventListener ('click', closeModal)
+
