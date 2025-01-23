@@ -1,5 +1,5 @@
 # Photizo_1.0
-![Screenshot 2024-07-14 172749](https://github.com/user-attachments/assets/9031e4e8-aeb9-405c-96f6-c438a2822527)
+![Screenshot 2025-01-23 ]
 
 This is a conference landing page for information about the conference and registration
 
