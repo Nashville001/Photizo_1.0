@@ -4,13 +4,11 @@
 This is a conference landing page for information about the conference and registration
 
 ## Table of Contents
-+ [Introduction](https://github.com/Nashville001/Mono-website/blob/master/README.md/Introduction)
-+ [Features](https://github.com/Nashville001/Mono-website/blob/master/README.md/Features)
-+ [Technologies Used](https://github.com/Nashville001/Mono-website/blob/master/README.md/Technologies)
-+ [Installation](https://github.com/Nashville001/Mono-website/blob/master/README.md/Installation)
-+ [Usage](https://github.com/Nashville001/Mono-website/blob/master/README.md/Usage)
-+ [Contributing](https://github.com/Nashville001/Mono-website/blob/master/README.md/Contributing)
-+ [License](https://github.com/Nashville001/Mono-website/blob/master/README.md/License)
++ [Introduction](https://github.com/Nashville001/Photizo_1.0/blob/main/README.md)
++ [Features](https://github.com/Nashville001/Photizo_1.0/blob/main/README.md)
++ [Technologies Used](https://github.com/Nashville001/Photizo_1.0/blob/main/README.md)
++ [Installation](https://github.com/Nashville001/Photizo_1.0/blob/main/README.md)
++ [Usage](https://github.com/Nashville001/Photizo_1.0/blob/main/README.md)
 
 ## Introduction
 The Mono website clone is a web application designed to mimic the layout and design of the original Mono website. It allows users to explore and learn about the various financial services and payment solutions Mono offers.
