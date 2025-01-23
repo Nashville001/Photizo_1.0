@@ -159,7 +159,7 @@ const teams = [
     icon: ICONS,
   },
   {
-    title: "Ayankaye Esther",
+    title: "Hgbc Esther",
     image: "./Asset/images/esther.png",
     position: "HR Manager",
     share: share,
@@ -195,7 +195,7 @@ const teams = [
     icon: ICONS,
   },
   {
-    title: "Fine Deborah",
+    title: "Hgbc Deborah",
     image: "./Asset/images/team-5.png",
     position: "Content Curator",
     share: share,
