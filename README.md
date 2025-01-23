@@ -36,4 +36,4 @@ To run the Mono website clone locally, follow these steps:
 2. Navigate to the project directory: `cd Mono-website`
 3. Open the `index.html` file in your web browser.
 
-Alternatively, you can view the website online by visiting https://nashville001.github.io/Mono-website/
+Alternatively, you can view the website online by visiting https://nashville001.github.io/Photizo_1.0/
