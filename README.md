@@ -1,5 +1,5 @@
 # Photizo_1.0
-![Screenshot 2025-01-23 ]
+
 
 This is a conference landing page for information about the conference and registration
 
