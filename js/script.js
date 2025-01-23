@@ -123,9 +123,9 @@ speakers.forEach((speaker) => {
 // });
 const teams = [
   {
-    title: "Ayanfe Daniel",
+    title: "Pastor Ayanfe",
     image: "./Asset/images/ayanf.png",
-    position: "Digital Marketter, Bybit",
+    position: "Pastor, Digital Marketter, Bybit",
     share: share,
     links: {
       facebook: "https://youtube.com/@hgbcinfluencers",
@@ -135,7 +135,7 @@ const teams = [
     icon: ICONS,
   },
   {
-    title: "Amusan Samuel",
+    title: "Pastor Amusan",
     image: "./Asset/images/mich.png",
     position: "Pastor, HGBC",
     share: share,
@@ -147,7 +147,7 @@ const teams = [
     icon: ICONS,
   },
   {
-    title: "Bobby Fadeyi",
+    title: "Mr Fadeyi",
     image: "./Asset/images/fadeyi.png",
     position: "Realtor, Ace",
     share: share,
@@ -159,7 +159,7 @@ const teams = [
     icon: ICONS,
   },
   {
-    title: "Hgbc Esther",
+    title: "Miss Esther",
     image: "./Asset/images/esther.png",
     position: "HR Manager",
     share: share,
@@ -183,7 +183,7 @@ const teams = [
     icon: ICONS,
   },
   {
-    title: "Ayinla Tumilara",
+    title: "Miss Tumilara",
     image: "./Asset/images/tumilara.png",
     position: "Public Speaker, Spotify",
     share: share,
@@ -195,7 +195,7 @@ const teams = [
     icon: ICONS,
   },
   {
-    title: "Hgbc Deborah",
+    title: "Miss Deborah",
     image: "./Asset/images/team-5.png",
     position: "Content Curator",
     share: share,
