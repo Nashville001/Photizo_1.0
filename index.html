@@ -14,6 +14,7 @@
   <body>
     <header>
       <nav class="navbar">
+        <span id="nav-label" hidden>Navigation</span>
         <div class="logo">
           <a href="#home">
             <img
@@ -22,7 +23,12 @@
             />
           </a>
         </div>
-        <div class="burger" id="btnOpen">
+        <button
+          class="burger"
+          id="btnOpen"
+          aria-expanded="false"
+          aria-labelledby="nav-label"
+        >
           <svg
             width="30px"
             height="30px"
@@ -49,13 +55,35 @@
               </g>
             </g>
           </svg>
-        </div>
-        <div class="menu-container" id="menuContainer" role="dialog" aria-modal="true" arai-label="Navigation menu">
-          <button type="button" class="close-menu" id="btnClose" aria-label="Close menu">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff">
-                <path d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </button>
+        <div
+          class="menu-container"
+          id="menuContainer"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="nav-label"
+        >
+          <button
+            type="button"
+            class="close-menu"
+            id="btnClose"
+            aria-label="Close"
+          >
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#fff"
+            >
+              <path
+                d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
             </svg>
-                </button>
+          </button>
           <div class="navigation">
             <ul>
               <li class="nav-link"><a href="#About">About</a></li>
