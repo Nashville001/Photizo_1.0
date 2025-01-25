@@ -480,14 +480,19 @@ body {
   bottom: -3rem;
   border: 6px solid white;
 }
+#about-text p{
+  color: #ff7635;
+}
 .Know {
   font-family: var(--font-neue);
   font-weight: 400;
+  color: #0d6efd;
 }
 .about p {
   font-family: "Neue Medium";
   width: 100%;
   font-weight: 400;
+  
 }
 
 /* screen less than 700px */
