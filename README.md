@@ -11,13 +11,12 @@ This is a conference landing page for information about the conference and regis
 + [Usage](https://github.com/Nashville001/Photizo_1.0/blob/main/README.md)
 
 ## Introduction
-The Mono website clone is a web application designed to mimic the layout and design of the original Mono website. It allows users to explore and learn about the various financial services and payment solutions Mono offers.
+The Photizo 1.0 is a web application designed for a light conference. It allows users to explore and learn about the various aspect from the schedule of the conference, to the speakers, also the live location of the venue.
 
-This project is purely educational and meant for personal learning purposes. It is not an official Mono website or is not associated with the company.
 
 ## Features
 The Mono website clone includes these features:
-1. Home Page: This is an overview of Mono services, including the statement page, payment services, lending, financial management, and account verification.
+1. Home Page: This is an overview of Photizo, including the about us page, speaker page, photizo team, schedule page, and The get in touch.
 2. Responsive Design: The website is responsive, ensuring it looks great and functions well on various devices, including desktops, tablets, and mobile phones.
 3. Interactive Elements: The clone includes interactive elements such as buttons, menus, and hover effects, enhancing the user experience.
 
