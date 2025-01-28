@@ -99,28 +99,6 @@ speakers.forEach((speaker) => {
   speakerContainer.appendChild(speakerDetail);
 });
 
-// const scheduleContainer = document.querySelector(".schedule-container");
-// events.forEach((event) => {
-//   const schedule = document.createElement("div");
-//   schedule.className = "schedule-comp";
-
-//   schedule.innerHTML = `
-//             <div class="e-time">
-//                 <div>${event.Day}</div>
-//                 <div>${event.Month}
-//                      ${event.Year}
-//                 </div>
-//             </div>
-//             <div class="e-details">
-//                 <div>${event.name}</div>
-//                 <div>
-//                     <div>${event.location}</div>
-//                     <div>${event.time}</div>
-//                 </div>
-//             </div>
-//     `;
-//   scheduleContainer.appendChild(schedule);
-// });
 const teams = [
   {
     title: "Pastor Ayanfe",
@@ -261,7 +239,6 @@ teams.forEach((team) => {
     `;
   teamContainer.appendChild(teamDetails);
 });
-// console.log(teamDetails);
 
 document.addEventListener("DOMContentLoaded", () => {
   const mapContainer = document.getElementById("map-container");
