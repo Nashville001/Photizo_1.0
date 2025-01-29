@@ -1235,9 +1235,19 @@ body {
 
 footer {
   margin: 0;
-  padding: 0.5rem;
+  padding: 1.5rem;
   background-color: #221858;
   /* z-index: 4; */
+}
+#footer-details img{
+  width: 90px;
+  height: 70px;
+  object-fit: contain;
+}
+#footer-details p{
+  width: 20rem;
+  color: #f7f9fc;
+  font-family: var(--font-family);
 }
 .inner-footer {
   display: flex;
@@ -1259,9 +1269,15 @@ footer {
   width: 1.5rem;
   height: 1.2rem;
   cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #717275;
 }
 .media img:hover {
   fill: #000;
+}
+.web{
+  color: #000;
 }
 
 /*Styling from screen less than 700px */
