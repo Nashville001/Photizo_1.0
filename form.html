@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="formModal" class="modal">
+        <div class="modal-content">
+          <span id="closeModal" class="close">&times;</span>
+          <h1>Photizo Conference '25</h1>
+          <p>Embracing The GOD Given Light</p>
+
+          <form>
+            <label>Full Name *</label>
+            <div class="name">
+              <input type="text" placeholder="First Name" required />
+              <input type="text" placeholder="Last Name" required />
+            </div>
+
+            <label>Age Range</label>
+            <div class="age-range">
+              <div>
+                <input type="checkbox" id="age1" /><label for="age1"
+                  >15 - 30</label
+                >
+              </div>
+              <div>
+                <input type="checkbox" id="age2" /><label for="age2"
+                  >31 - 45</label
+                >
+              </div>
+              <div>
+                <input type="checkbox" id="age3" /><label for="age3"
+                  >46 - 60</label
+                >
+              </div>
+            </div>
+
+            <label>E-mail *</label>
+            <input type="email" placeholder="example@example.com" required />
+
+            <label>Phone Number *</label>
+            <input type="tel" placeholder="(000) 000-00000" required />
+
+            <label>First time to attend this conference? *</label>
+            <div class="attend">
+              <div>
+                <input type="radio" id="firstTimeYes" name="firstTime" /><label
+                  for="firstTimeYes"
+                  >Yes</label
+                >
+              </div>
+              <div>
+                <input type="radio" id="firstTimeNo" name="firstTime" /><label
+                  for="firstTimeNo"
+                  >No</label
+                >
+              </div>
+            </div>
+
+            <label>What are your expectations for Photizo?</label>
+            <textarea placeholder="Share your thoughts"></textarea>
+
+            <label>I will attend:</label>
+            <div class="attend">
+              <div>
+                <input type="checkbox" id="event1" /><label for="event1"
+                  >Event 1 - February 15</label
+                >
+              </div>
+              <div>
+                <input type="checkbox" id="event2" /><label for="event2"
+                  >Event 2 - February 16</label
+                >
+              </div>
+              <div>
+                <input type="checkbox" id="event3" /><label for="event3"
+                  >Event 3 - February 17</label
+                >
+              </div>
+              <div>
+                <input type="checkbox" id="allEvents" /><label for="allEvents"
+                  >All Events</label
+                >
+              </div>
+            </div>
+
+            <label>Mode of Attendance *</label>
+            <select title="Please Select" required>
+              <option value="" disabled selected>Please Select</option>
+              <option value="online">Online</option>
+              <option value="in-person">In-Person</option>
+            </select>
+
+            <label>Upload Payment Receipt</label>
+            <div>
+              <input title="file" type="file" />
+              <div class="inner-input">
+                <img src="" alt="" />
+                <h2>Browse Files</h2>
+                <p>Drag and Drop files here</p>
+              </div>
+            </div>
+
+            <button type="submit">Submit Form</button>
+          </form>
+        </div>
+    </div>
+</body>
+</html>

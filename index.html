@@ -251,7 +251,7 @@
                 </div>
               </div>
               <div class="register">
-                <button class="register-btn" type="submit">Register</button>
+                <a href="./form.html" target="_blank"><button class="register-btn" type="submit">Register</button></a>
               </div>
             </div>
 
@@ -335,7 +335,7 @@
                 </div>
               </div>
               <div class="register">
-                <button class="register-btn" type="submit">Register</button>
+                <a href="./form.html" target="_blank"><button class="register-btn" type="submit">Register</button></a>
               </div>
             </div>
 
@@ -419,7 +419,7 @@
                 </div>
               </div>
               <div class="register">
-                <button class="register-btn" type="submit">Register</button>
+                <a href="./form.html" target="_blank"><button class="register-btn" type="submit">Register</button></a>
               </div>
             </div>
           </div>
@@ -486,108 +486,6 @@
           </div>
         </section>
       </div>
-      <div id="formModal" class="modal">
-        <div class="modal-content">
-          <span id="closeModal" class="close">&times;</span>
-          <h1>Photizo Conference '25</h1>
-          <p>Embracing The GOD Given Light</p>
-
-          <form>
-            <label>Full Name *</label>
-            <div class="name">
-              <input type="text" placeholder="First Name" required />
-              <input type="text" placeholder="Last Name" required />
-            </div>
-
-            <label>Age Range</label>
-            <div class="age-range">
-              <div>
-                <input type="checkbox" id="age1" /><label for="age1"
-                  >15 - 30</label
-                >
-              </div>
-              <div>
-                <input type="checkbox" id="age2" /><label for="age2"
-                  >31 - 45</label
-                >
-              </div>
-              <div>
-                <input type="checkbox" id="age3" /><label for="age3"
-                  >46 - 60</label
-                >
-              </div>
-            </div>
-
-            <label>E-mail *</label>
-            <input type="email" placeholder="example@example.com" required />
-
-            <label>Phone Number *</label>
-            <input type="tel" placeholder="(000) 000-00000" required />
-
-            <label>First time to attend this conference? *</label>
-            <div class="attend">
-              <div>
-                <input type="radio" id="firstTimeYes" name="firstTime" /><label
-                  for="firstTimeYes"
-                  >Yes</label
-                >
-              </div>
-              <div>
-                <input type="radio" id="firstTimeNo" name="firstTime" /><label
-                  for="firstTimeNo"
-                  >No</label
-                >
-              </div>
-            </div>
-
-            <label>What are your expectations for Photizo?</label>
-            <textarea placeholder="Share your thoughts"></textarea>
-
-            <label>I will attend:</label>
-            <div class="attend">
-              <div>
-                <input type="checkbox" id="event1" /><label for="event1"
-                  >Event 1 - February 15</label
-                >
-              </div>
-              <div>
-                <input type="checkbox" id="event2" /><label for="event2"
-                  >Event 2 - February 16</label
-                >
-              </div>
-              <div>
-                <input type="checkbox" id="event3" /><label for="event3"
-                  >Event 3 - February 17</label
-                >
-              </div>
-              <div>
-                <input type="checkbox" id="allEvents" /><label for="allEvents"
-                  >All Events</label
-                >
-              </div>
-            </div>
-
-            <label>Mode of Attendance *</label>
-            <select title="Please Select" required>
-              <option value="" disabled selected>Please Select</option>
-              <option value="online">Online</option>
-              <option value="in-person">In-Person</option>
-            </select>
-
-            <label>Upload Payment Receipt</label>
-            <div>
-              <input title="file" type="file" />
-              <div class="inner-input">
-                <img src="" alt="" />
-                <h2>Browse Files</h2>
-                <p>Drag and Drop files here</p>
-              </div>
-            </div>
-
-            <button type="submit">Submit Form</button>
-          </form>
-        </div>
-      </div>
       <footer>
         <div id="footer-details">
           <img src="./Asset/images/Screenshot_2024-12-02_193250_-_Copy-removebg-preview.png" alt="">
@@ -598,11 +496,19 @@
           </p>
         </div>
         <div>
-          <ul>
+          <ul class="testimony">
             <li>What people say about Photizo</li>
             <li>Testimonies</li>
             <li>How Photizo started</li>
+            <li>Vision Of Photizo</li>
           </ul>
+        </div>
+        <div class="here-more">
+          <p>To hear more about PHOTIZO and get updates about the eventss</p>
+          <div class="newsletter">
+            <input type="email" name="Input your mail" id="" placeholder="Input your mail">
+            <button type="submit">submit</button>
+          </div>
         </div>
         <div class="inner-footer">
           <div class="media">
@@ -631,29 +537,5 @@
       </button>
     </section>
     <script type="module" src="js/script.js"></script>
-
-    <script src="https://form.jotform.com/static/feedback2.js"></script>
-    <script>
-      var componentID = new JotformFeedback({
-        type: 0,
-        width: 700,
-        height: 500,
-        fontColor: "#FFFFFF",
-        background: "#F59202",
-        isCardForm: false,
-        formId: "243383755730562",
-        buttonText: "Register",
-        buttonSide: "left",
-        buttonAlign: "center",
-        base: "https://form.jotform.com/",
-      }).componentID;
-    </script>
-    <script src="https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js"></script>
-    <script>
-      window.jotformEmbedHandler(
-        "iframe[id='" + componentID + "_iframe']",
-        "https://form.jotform.com/"
-      );
-    </script>
   </body>
 </html>
