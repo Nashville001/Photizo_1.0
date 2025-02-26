@@ -186,7 +186,7 @@ const teams = [
   },
   {
     title: "Josh Loye",
-    image: "./Asset/images/josh.png",
+    image: "./Asset/images/team-5.png",
     position: "CEO, Loye's franchise",
     share: share,
     links: {
@@ -259,8 +259,6 @@ document.addEventListener("DOMContentLoaded", () => {
 // JavaScript to add contact information dynamically
 const register = document.querySelector(".btn-1");
 
-
-
 const topButton = document.getElementById("backToTop");
 
 // show button when scrolling down
@@ -304,24 +302,19 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const modalForm = document.getElementById("formModal");
-const closeButton = document.getElementById('closeModal')
+const closeButton = document.getElementById("closeModal");
 const btnRegister = document.querySelector(".register-btn");
 
-
-
-
-function openModal () {
-  modalForm.style.display = 'block'
+function openModal() {
+  modalForm.style.display = "block";
 }
 
 function closeModal() {
   modalForm.style.display = "none";
 }
 
-btnRegister.addEventListener("click",openModal)
+btnRegister.addEventListener("click", openModal);
 
-register.addEventListener('click', openModal)
+register.addEventListener("click", openModal);
 
-
-closeButton.addEventListener ('click', closeModal)
-
+closeButton.addEventListener("click", closeModal);
