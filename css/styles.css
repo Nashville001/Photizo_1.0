@@ -147,7 +147,6 @@ body {
 @media (max-width: 700px) {
   body {
     overflow-x: hidden;
-    padding: 0.5rem;
   }
   .logo img {
     width: 50px;
@@ -252,6 +251,9 @@ body {
     width: 28px;
     height: 28px;
     display: block;
+  }
+  .menu-container{
+    display: none;
   }
 }
 .container {
@@ -1047,7 +1049,7 @@ body {
   .team-content {
     width: 50%;
     bottom: 19px;
-    left: 0;
+    left: 62px;
     /* flex-direction: column; */
   }
 }
@@ -1058,6 +1060,7 @@ body {
   }
   .team p {
     width: 80%;
+    white-space: nowrap;
   }
 }
 
