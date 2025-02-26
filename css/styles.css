@@ -505,7 +505,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 2s ease-in-out;
     padding: 1rem;
     opacity: 0;
     z-index: 1;
@@ -514,7 +514,7 @@ body {
   .content {
     left: 33%;
     right: 0;
-    bottom: -13%;
+    bottom: -8%;
   }
   .animated-text span::before {
     content: "Your Values";
@@ -911,13 +911,16 @@ body {
   color: #f8f6ff;
 }
 .team-container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 76%;
-  justify-content: end;
-  align-items: center;
-  gap: 1.5rem;
-  padding: 2rem;
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  place-content: center;
+  width: 100%;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 1.2rem;
+  padding: 1rem;
 }
 .team-card {
   /* padding: 1rem; */
@@ -1026,8 +1029,10 @@ body {
     font-size: 14px;
   }
   .team-container {
-    width: 88%;
+    width: 50%;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
   }
   .team-person h2 {
     font-size: 0.75rem;
@@ -1044,6 +1049,9 @@ body {
 }
 
 @media (max-width: 1190px) {
+  .team-container{
+    width: 100%;
+  }
   .team p {
     width: 80%;
   }
