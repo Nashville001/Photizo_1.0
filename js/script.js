@@ -186,7 +186,7 @@ const teams = [
   },
   {
     title: "Josh Loye",
-    image: "./Asset/images/team-5.png",
+    image: "./Asset/images/Josh.png",
     position: "CEO, Loye's franchise",
     share: share,
     links: {
