@@ -145,6 +145,9 @@ body {
   right: 20px;
 }
 @media (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
   .logo img {
     width: 50px;
   }
@@ -1049,7 +1052,7 @@ body {
 }
 
 @media (max-width: 1190px) {
-  .team-container{
+  .team-container {
     width: 100%;
   }
   .team p {
@@ -1307,13 +1310,25 @@ footer {
   height: 100%;
   background: hsla(332, 78%, 59%, 1);
 
-background: linear-gradient(45deg, hsla(332, 78%, 59%, 1) 10%, hsla(222, 77%, 33%, 1) 100%);
+  background: linear-gradient(
+    45deg,
+    hsla(332, 78%, 59%, 1) 10%,
+    hsla(222, 77%, 33%, 1) 100%
+  );
 
-background: -moz-linear-gradient(45deg, hsla(332, 78%, 59%, 1) 10%, hsla(222, 77%, 33%, 1) 100%);
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(332, 78%, 59%, 1) 10%,
+    hsla(222, 77%, 33%, 1) 100%
+  );
 
-background: -webkit-linear-gradient(45deg, hsla(332, 78%, 59%, 1) 10%, hsla(222, 77%, 33%, 1) 100%);
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(332, 78%, 59%, 1) 10%,
+    hsla(222, 77%, 33%, 1) 100%
+  );
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E84592", endColorstr="#133A94", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E84592", endColorstr="#133A94", GradientType=1 );
   justify-content: center;
   align-items: center;
   /* position: absolute; */
@@ -1322,11 +1337,11 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E84592", en
 
 .modal-content {
   background-color: white;
-  margin: 0  auto;
+  margin: 0 auto;
   padding: 2rem;
   border-radius: 8px;
   width: 100%;
- max-width: 600px;
+  max-width: 600px;
   text-align: left;
   position: relative;
   color: #000;
@@ -1362,7 +1377,7 @@ form div {
   display: flex;
   gap: 10px;
 }
-.inner-input{
+.inner-input {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -1371,12 +1386,12 @@ form div {
   font-family: var(--font-neue);
   font-size: 1.5rem;
 }
-.inner-input p{
+.inner-input p {
   font-family: var(--font-family);
   font-size: 1rem;
   font-weight: 300;
 }
-.upload-box{
+.upload-box {
   border: 2px dashed #a0aec0;
   border-radius: 8px;
   padding: 40px;
@@ -1387,7 +1402,7 @@ form div {
   justify-content: center;
   align-items: center;
 }
-.upload-box input{
+.upload-box input {
   position: absolute;
   opacity: 0;
   width: 100%;
