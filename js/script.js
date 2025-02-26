@@ -311,6 +311,7 @@ function openModal() {
 
 function closeModal() {
   modalForm.style.display = "none";
+  window.location.href = "index.html";
 }
 
 btnRegister.addEventListener("click", openModal);

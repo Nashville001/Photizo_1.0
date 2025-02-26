@@ -1041,7 +1041,7 @@ body {
     font-size: 0.35rem;
   }
   .team-content {
-    width: 90%;
+    width: 50%;
     bottom: 19px;
     left: 0;
     /* flex-direction: column; */
