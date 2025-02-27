@@ -276,13 +276,13 @@ body {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   /* margin: 3px auto; */
 }
 .carousel-slide {
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
