@@ -145,9 +145,6 @@ body {
   right: 20px;
 }
 @media (max-width: 700px) {
-  body {
-    overflow-x: hidden;
-  }
   .logo img {
     width: 50px;
   }
@@ -262,6 +259,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 4.5rem;
+  overflow-x: hidden;
   /* justify-content: center;
     align-items: center; */
   /* position: relative; */
@@ -1060,7 +1058,7 @@ body {
   }
   .team p {
     width: 80%;
-    white-space: nowrap;
+
   }
 }
 
@@ -1370,6 +1368,12 @@ footer {
 
 /*Styling from screen less than 700px */
 @media (max-width: 700px) {
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .inner-footer {
     flex-direction: column;
   }
