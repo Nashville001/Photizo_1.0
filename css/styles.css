@@ -249,7 +249,7 @@ body {
     height: 28px;
     display: block;
   }
-  .menu-container{
+  .menu-container {
     display: none;
   }
 }
@@ -276,13 +276,13 @@ body {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 70vh;
+  height: 90vh;
   /* margin: 3px auto; */
 }
 .carousel-slide {
   position: absolute;
   width: 100%;
-  height: 70vh;
+  height: 90vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1058,7 +1058,6 @@ body {
   }
   .team p {
     width: 80%;
-
   }
 }
 
@@ -1277,18 +1276,18 @@ footer {
   color: #f8f6ff;
   font-family: var(--font-family);
 }
-.impt-links{
+.impt-links {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.important-topic{
+.important-topic {
   font-family: var(--font-family);
   color: #ccc;
   font-size: 1.25rem;
 }
-.important li{
+.important li {
   list-style-type: none;
   color: #ccc;
   font-family: var(--font-family);
@@ -1327,23 +1326,22 @@ footer {
 .important ul li:hover {
   color: #f7f9fc;
 }
-.here-more{
+.here-more {
   font-family: var(--font-family);
   color: #ccc;
 }
-.newsletter input{
+.newsletter input {
   width: 10rem;
   padding: 1rem;
   border-radius: 0.5rem;
   font-family: var(--font-family);
   outline: none;
 }
-.newsletter button{
+.newsletter button {
   width: 5rem;
   padding: 1rem 0.5rem;
   border-radius: 1rem;
   font-family: var(--font-family);
-
 }
 .media {
   display: flex;
@@ -1368,7 +1366,7 @@ footer {
 
 /*Styling from screen less than 700px */
 @media (max-width: 700px) {
-  footer{
+  footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1515,7 +1513,7 @@ input[type="radio"] {
   width: auto;
 }
 @media (max-width: 700px) {
-  .modal-content{
+  .modal-content {
     width: 100vw;
     max-width: 400px;
   }
